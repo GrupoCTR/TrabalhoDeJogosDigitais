@@ -1,1 +1,5 @@
-Vamos testar
+Vamos continuar o teste.
+
+Estou escrevendo coisas inuteis, mas aqui deveria ter as decições de projeto.
+
+Minha decisão: Projeto deve ser legal.
