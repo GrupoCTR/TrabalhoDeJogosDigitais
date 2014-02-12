@@ -1,5 +1,9 @@
 Vamos continuar o teste.
 
+<<<<<<< HEAD
 Estou escrevendo inutilidades, mas aqui deveria ter as decições de projeto.
+=======
+Estou escrevendo coisas inuteis, mas aqui deveria ter as decições de projeto 222.
+>>>>>>> 34c11b6121069a6bf386e6323395f87e10009ccf
 
 Minha decisão: Projeto deve ser legal.
