@@ -8,6 +8,6 @@
 	Torres, Eric dos Santos
 	Ribeiro Junior, Estanilau
 	
-Tema: Aguardando Formalização
+Tema: Aguardando Formalizacao
 
 Objetivo: Acabar o TP e fazer um jogo legal.
