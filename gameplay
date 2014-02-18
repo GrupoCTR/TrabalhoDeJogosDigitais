@@ -1,9 +1,30 @@
 Ideias iniciais para o jogo do trabalho final
 
 Sobre o personagem
-  O personagem será criado pelo jogador, que definira classe e caracteristicas / atributos (ou o jogador so defina a 
-classe, nao foi decidido ainda).
+  O personagem será criado pelo jogador, que definirá classe e caracteristicas / atributos (ou o jogador só definará a 
+classe > não foi decidido ainda).
+  O personagem será um modelo 3D ou 2D (qual?) simples e irá atuar sobre o mundo.
+  Deverá possuir um nome, uma história e caracteristicas pessoais
+  Existirão mais de um personagem.
 
 Sobre as habilidades
   O personagem terá a sua disposição runas que lhe dão acesso a skills de curto e longo alcance. Para cada runa que possui,
-o personagem deve selecionar 2 skills (nuemro pode mudar com o avançar do projeto) para utilizar no combate.
+o personagem deve selecionar 2 skills (número pode mudar com o avançar do projeto) para utilizar no combate.
+  As habilidades podem ser mais ou menos forte de acordo com o número usadas.
+  
+Sobre a Mecânica de Skill e Runas
+  Irão existir 6 runas mágicas. Cada uma irá representar os seguintes elementos: FOGO, ÁGUA, TERRA, AR, LUZ, TREVAS E CHUCK NORIS.
+  FOGO, ÁGUA, TERRA, AR, LUZ, TREVAS são elementos opcionais...
+  (Não precisamos ficar presos a essa noção básicona. Podemos explorar outros elementos como metal e madeira ou então outras variações como corpo, mente, veneno, proteção. Temos que ser criativos...)
+  Cada runa irá dar acesso a, no mínimo:
+    - Uma (1) SKILL de curto alcance
+	- Uma (2) SKILL de lonte alcance
+  Sem limite máximo.
+  Cada personagem terá 6 slots de runas; As runas serão obtidas conforme (qualquer regra ainda não determinada) e poderão ser colocadas nos slots.
+  Conforme o personagem esteja equipado com Uma runa, ele poderá escolher entre uma habilidade curto alcance (hca) e uma habilidade longe alcance (hla)
+  Tendo um total de 6 runas, ele possui um máximo de 12 habilidades disponíveis em cada combate.
+  A escolha de skills só poderá ser feita em momentos de tranquilidade (que ainda precisam ser mais bem definidos).
+  Bom, 
+	
+ 
+
