@@ -6,6 +6,7 @@ classe > não foi decidido ainda).
   O personagem será um modelo 3D ou 2D (qual?) simples e irá atuar sobre o mundo.
   Deverá possuir um nome, uma história e caracteristicas pessoais
   Existirão mais de um personagem.
+  Todo personagem possui uma rúnica básica.
 
 Sobre as habilidades
   O personagem terá a sua disposição runas que lhe dão acesso a skills de curto e longo alcance. Para cada runa que possui,
@@ -24,7 +25,17 @@ Sobre a Mecânica de Skill e Runas
   Conforme o personagem esteja equipado com Uma runa, ele poderá escolher entre uma habilidade curto alcance (hca) e uma habilidade longe alcance (hla)
   Tendo um total de 6 runas, ele possui um máximo de 12 habilidades disponíveis em cada combate.
   A escolha de skills só poderá ser feita em momentos de tranquilidade (que ainda precisam ser mais bem definidos).
-  Bom, 
+  
+  Multiplicidade de Runas
+    Dentro da Mecanica de Runas, um jogador pode escolher utilizar um slot para runas de mesmo elemento.
+	Neste caso, as habilidades serão as mesmas (ou podemos liberar habilidades mais fodas) só que com poderes
+	e efeitos amplificados.
+	(É interessante que as habilidades possuam sprites diferentes também)
+
+  Uso e Duração das Runas
+    Um personagem não irá perder que possui atráves de uso. As runas liberam habilidades, mas não se desgastam
+	(Um personagem pode perder as runas (e o acesso as habilidades) no meio de um combate atraves de skills de outros personagens)
+	Um personagem não pode perder sua runa básica (ele está ligada a alma do personagem)
 	
  
 
