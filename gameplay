@@ -1,39 +1,54 @@
 Ideias iniciais para o jogo do trabalho final
 
-Sobre o personagem
-  //O personagem será criado pelo jogador, que definirá classe e caracteristicas / atributos (ou o jogador só definará a classe > não foi decidido ainda).
-  O personagem será criado pelo jogador, que definirá classe, especialização e runa primária(pelo mns isso q eu pensei)
-  O personagem será um modelo 3D ou 2D (qual? depende do enunciado) simples e irá atuar sobre o mundo.
-  Deverá possuir um nome, uma história e caracteristicas pessoais//a ser criado
-  Existirão mais de um personagem.(jogando ou na tela? podemos implementar um multiplayer)
-  Todo personagem possui uma rúnica básica. (escolhida pelo jogador)
+Atributos do Personagem
+  Força -> Poder físico
+  Agilidade -> Esquiva
+  Destreza -> Percícia com armas
+  Magia -> Poder de magias
+  Constituição -> HP
 
+Classes 
+  Guerreiro, Mago, Arqueiro
+  - Define distribuição inicial de atributos
+  - Define skills únicas de cada classe
   
-Sobre as habilidades
-  O personagem terá a sua disposição runas;
-  As runas darão acesso a três tipos de skills (ShortRange, LongRange, Buffer) 
-  (??) >> Para cada runa que possui, o personagem deve selecionar 2 skills (número pode mudar com o avançar do projeto) para utilizar no combate. <<
-  
-  
-Sobre os Equipamentos
-  A definir...
-  Possibilidade: equipamento padrao inicial (arma, elmo, armadura, etc) e demais encontrados via drops de monstros ou em lojas//classico
-  
-Sobre o Esquema de Batalha
-  //pelo que eu pensei seria parecido com grand chase msm, soh seria um pouco mais dificil
-  A definir...
-  Possibilidades:
-  	1) Mais rapido: personagems colocados proximos uns aos outros, para uqe o combate seja iniciado rapidamente, lembrando jogos de luta, ou Grand Chase (nunca joguei esse, mas pelo qeu eu vi acho que encaixa)
-  	2) Mais lento: personagens colocados mais distantes, de forma que avancem estrategiamente, podendo levar outros aspectos em consideracao (teereno, posicionamento, etc), lembrando jogos RTS.. 
+Especialização
+  - A definir as especializações
+  - Define outras skills únicas.
+  Guerreiro:
+    - Templário
+	- Mercenário
+  Mago:
+	- Arcanista
+	- Necromante
+  Arqueiro:
+    - Caçador
+	- Assassino
 
 Sobre a Mecânica de Skill e Runas
-  Irão existir 6 runas mágicas(a discutir o numero de runas, podemos limitar tb o numero que o jogador pode usar). Cada uma irá representar os seguintes elementos: FOGO, ÁGUA, TERRA, AR, LUZ, TREVAS E CHUCK NORIS.
-  FOGO, ÁGUA, TERRA, AR, LUZ, TREVAS são elementos opcionais...
-  (Não precisamos ficar presos a essa noção básicona. Podemos explorar outros elementos como metal e madeira ou então outras variações como corpo, mente, veneno, proteção. Temos que ser criativos... //a ideia seria essa)
-  Cada runa irá dar acesso a, no mínimo://a minha ideia seria apenas estes golpes
-    - Uma (1) SKILL de curto alcance
-	- Uma (2) SKILL de lonte alcance
-  Sem limite máximo.//a ser discutido
+  Irão existir 7 runas mágicas básicas ;
+  Cada uma irá representar os seguintes elementos: 
+   - FOGO
+   - ÁGUA
+   - TERRA
+   - AR
+   - ELÉTRICO
+   - ARCANO
+   - PROFANO
+   - (GM only) CHUCK NORIS.
+   
+  Sendo que fogo, agua, terra e ar são os 4 elementos iniciais.
+  Cada runa irá dar acesso a 3 tipos de skill:
+    - SKILL de curto alcance (sc)
+	- SKILL de longo alcance (sl)
+	- SKILL de buffer (sb)
+  
+  O poder das skills e seus efeitos serão amplificados pelos atributos
+  O tempo de conjurar ou ativar as habilidade reduz conforme o uso (perícia na habilidade)
+
+########################################################################################################################
+  >>> AVALIAÇÃO FUTURA <<<
+  >>> falta definir skills <<<  
   Cada personagem terá 6 slots de runas; As runas serão obtidas conforme (qualquer regra ainda não determinada) e poderão ser colocadas nos slots.
   Conforme o personagem esteja equipado com Uma runa, ele poderá escolher entre uma habilidade curto alcance (hca) e uma habilidade longe alcance (hla)
   Tendo um total de 6 runas, ele possui um máximo de 12 habilidades disponíveis em cada combate.
@@ -49,6 +64,38 @@ Sobre a Mecânica de Skill e Runas
     Um personagem não irá perder que possui atráves de uso. As runas liberam habilidades, mas não se desgastam
 	(Um personagem pode perder as runas (e o acesso as habilidades) no meio de um combate atraves de skills de outros personagens)
 	Um personagem não pode perder sua runa básica (ele está ligada a alma do personagem)
+########################################################################################################################
+
+Sobre o personagem
+  O jogador irá escolher uma classe de personagem e dará um nome;
+  No decorrer do jogo o jogador deverá escolher uma especialização;
+  O jogador irá, no começo do jogo, escolher uma runa básica, que está dentro dos 4 elementos.
+  
+  O modelo visual do personagem será 2D, até que seja dito o contrário.
+  
+  Cada personagem deve possuir: nome, histórias(com suas caracteristicas pessoas)
+  O jogo é single player, portanto, com apenas um personagem jogando por vez.
+  
+
+  
+Sobre as habilidades
+  O personagem terá a sua disposição runas;
+  As runas darão acesso a três tipos de skills (ShortRange, LongRange, Buffer) 
+  (??) >> Para cada runa que possui, o personagem deve selecionar 2 skills (número pode mudar com o avançar do projeto) para utilizar no combate. <<
+  
+ 
+(Definir as skills primeiro)
+Sobre os Equipamentos
+  Possibilidade: equipamento padrao inicial (arma, elmo, armadura, etc) e demais encontrados via drops de monstros ou em lojas//classico
+
+  
+Sobre o Esquema de Batalha
+  "Estilo mais lento" aonde os adversários são colocados mais distantes, de forma que avancem estrategicamente, podendo levar outros aspectos em consideracao:
+    - Ambiente: Floresta, Vulção, Praia (uma questão mais elemental)
+	- Cenário: Mais fechado, mais aberto, mais baixo, mais alto (uma questão de posicionamento)
+	
+
+
 	
  
 
