@@ -6,16 +6,18 @@ Sobre o personagem
   O personagem será um modelo 3D ou 2D (qual? depende do enunciado) simples e irá atuar sobre o mundo.
   Deverá possuir um nome, uma história e caracteristicas pessoais//a ser criado
   Existirão mais de um personagem.(jogando ou na tela? podemos implementar um multiplayer)
-  Todo personagem possui uma rúnica básica.(escolhida pelo jogador)
+  Todo personagem possui uma rúnica básica. (escolhida pelo jogador)
 
+  
 Sobre as habilidades
-  O personagem terá a sua disposição runas que lhe dão acesso a skills de curto e longo alcance. Para cada runa que possui,
-o personagem deve selecionar 2 skills (número pode mudar com o avançar do projeto) para utilizar no combate.
-  As habilidades podem ser mais ou menos forte de acordo com o número usadas.(? não entendi, acredito que não seja o caso, discutir depois)
+  O personagem terá a sua disposição runas;
+  As runas darão acesso a três tipos de skills (ShortRange, LongRange, Buffer) 
+  (??) >> Para cada runa que possui, o personagem deve selecionar 2 skills (número pode mudar com o avançar do projeto) para utilizar no combate. <<
+  
   
 Sobre os Equipamentos
   A definir...
-  Possibilidade: equipamento padrao inicial (arma, elmo, armadura, etc) e demais encontrados via drops de monstros ou em lojas//clasico
+  Possibilidade: equipamento padrao inicial (arma, elmo, armadura, etc) e demais encontrados via drops de monstros ou em lojas//classico
   
 Sobre o Esquema de Batalha
   //pelo que eu pensei seria parecido com grand chase msm, soh seria um pouco mais dificil
