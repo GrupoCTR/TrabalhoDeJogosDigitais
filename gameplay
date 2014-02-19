@@ -6,6 +6,16 @@ Atributos do Personagem
   Destreza -> Percícia com armas
   Magia -> Poder de magias
   Constituição -> HP
+  
+Condições (coloquei algumas abaixo... verifiquem e adicionem/retirem, caso queiram)
+  - Envenenado -> Perde HP com o tempo. Taxa de perda de HP aumenta com o tempo
+  - Paralisado -> Fica imovel por alguns segundos. Dano sofrido aumenta (quanto? a definir...)
+  - Cego -> Erra a maioria dos ataques de curta distancia (adaptado para atender ao nosso estilo)
+  - Silenciado -> Não pode usar golpes de longa distancia (adaptado para atender ao nosso estilo)
+  - Rapido -> Aumenta a agilidade
+  - Lento -> Diminui a agilidade
+  - Queimado -> Reduz Forca e Magica (quanto? a definir...)
+  - Velho -> Reduz Forca e aumenta Magica com o tempo.
 
 Classes 
   Guerreiro, Mago, Arqueiro
