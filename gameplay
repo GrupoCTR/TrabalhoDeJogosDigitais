@@ -84,6 +84,25 @@ Sobre a Mecânica de Skill e Runas
   O poder das skills e seus efeitos serão amplificados pelos atributos
   O tempo de conjurar ou ativar as habilidade reduz conforme o uso (perícia na habilidade)
 
+  
+DESCRIÇÃO DE SKILLS
+	Nome
+	Descrição Breve
+	Tipo (Curto, Longo, Buff)
+	Poder Base
+	Alcance (em px ou metro)
+	Area de Efeito (em px^2 ou metro^2)
+	Modificação de Status: Tabela com Porcentagens
+	Efeitos:
+		- Interação:
+			- Visual (descrição da animação)
+			- Mecânica (descrição dos efeitos)
+		- Chance de acerto ou de ocorrência (em %)
+	Duração da Habilidade (em s)
+	Tempo para conjurar (em s)
+	Tempo de esperar para poder conjurar (em s)
+	Atributo Base (uma das 7 runas)
+
 ########################################################################################################################
   >>> AVALIAÇÃO FUTURA <<<
   >>> falta definir skills <<<  
