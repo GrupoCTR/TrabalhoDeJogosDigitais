@@ -8,29 +8,42 @@ Atributos do Personagem
   Constituição -> HP
   
 Condições (coloquei algumas abaixo... verifiquem e adicionem/retirem, caso queiram)
-  - Envenenado -> Perde HP com o tempo. Taxa de perda de HP aumenta com o tempo
-	--> A ideia do personagem tá enveneado é um doença que se espalha pelo corpo certo? Por isso a taxa de perda aumenta com o tempo, pois quanto mais o tempo passa, mais o veneno espalha pelo corpo.
-  - Paralisado -> Fica imovel por alguns segundos. Dano sofrido aumenta (quanto? a definir...)
-    --> Paralizia é um efeito embaçar ou anular a resposta do corpo as vontades do cérebro. Dessa forma, não acho que deveria AUMENTAR O DANO, e sim, ZERAR A ESQUIVA.
-  - Rapido -> Aumenta a agilidade
-    --> Estar rápido é um efeito de aumento de reflexos, ocasionado por aumento de adrenalina ou por efeitos mágicos. Com reflexos apurados, podemos aumentar a taxa de esquiva (ou seja, aumentar a agilidade) e claro, aumentar a velocidade de movimento do personagem.
-  - Lento -> Diminui a agilidade
+  - Envenenado -> Perde HP com o tempo. Taxa de perda de HP aumenta com o tempo.
+	--> A ideia do personagem tá enveneado é um doença que se espalha pelo corpo certo? Por isso a taxa de perda aumenta com o tempo, pois quanto mais o tempo passa, mais o veneno --> --> espalha pelo corpo.
+	
+  - Paralisado -> Fica imovel e perde a capacidade de esquiva por alguns segundos.
+  --> Paralizia é um efeito embaçar ou anular a resposta do corpo as vontades do cérebro. Dessa forma, não acho que deveria AUMENTAR O DANO, e sim, ZERAR A ESQUIVA.
+	
+  - Rapido -> Aumenta a agilidade e a velocidade de movimento do personagem
+    --> Estar rápido é um efeito de aumento de reflexos, ocasionado por aumento de adrenalina ou por efeitos mágicos. Com reflexos apurados, podemos aumentar a taxa de esquiva (ou
+	--> seja, aumentar a agilidade) e claro, aumentar a velocidade de movimento do personagem.
+  - Lento -> Diminui a agilidade e a velocidade de movimento do personagem
     --> Estar lento é o oposto de estar rápido. Dimuição da agilidade e da velocidade de movimento.
+	
+  - Cego -> Produz efeitos visuais na tela do jogador que o fazem impedir de ver pacial ou totalmente a tela.
+    QUAL SERIA O EFEITO NOS NPCs? => Acrescentaria um valor Aleatório ALTO na direção escolhida pelo NPC.
+    --> Erra a maioria dos ataques de curta distancia (adaptado para atender ao nosso estilo)
+    --> Cegar é um efeito de impedir os olhos de absorverem a luz OU do cérebro processar as imagens. Um personagem cego perde a precisão dos golpes, seja de curta ou longa distância. --> Mas, uma pessoa cega também se torna mais precavida, e pode, TALVEZ, aumentar o casting de buffers ou magias internas
   
-  
-  
-  ARTHUR: "Eu gostaria de discutir melhor essas condições:
-  - Cego -> Erra a maioria dos ataques de curta distancia (adaptado para atender ao nosso estilo)
-    --> Cegar é um efeito de impedir os olhos de absorverem a luz OU do cérebro processar as imagens. Um personagem cego perde a precisão dos golpes, seja de curta ou longa distância. Mas, uma pessoa cega também se torna mais precavida, e pode, TALVEZ, aumentar o casting de buffers ou magias internas
-  - Silenciado -> Não pode usar golpes de longa distancia (adaptado para atender ao nosso estilo)
+  - Silenciado -> Impede a ATIVAÇÃO e DESATIVAÇÃO de habilidades ativas (não-passivas).
+    --> Não pode usar golpes de longa distancia (adaptado para atender ao nosso estilo)
     --> Silenciado é um efeito de impedir que o personagem produza som (qlqr som, ou só da boca). Normalmente, isso impediria uso de magias e habilidades, de qualquer natureza. Em
-	contrapartida, como ele estaria incapaz de conjurar magias, isso poderia aumentar seus reflexos (aumento de adrenalina)
-  - Queimado -> Reduz Forca e Magica (quanto? a definir...)
-    --> Uma pessoa (SEVERAMENTE) queimada temm dificuldade de locomoção, respiração e concentração. Queimaduras são danos severos a pele e a carne. Por isso, uma pessoa queimada perde um percentagem da sua força física e da sua força mágica. A primeira, porque seus musculos e mente ficam enfraquecidos. A segunda, porque sua capacidade de se concentrar fica prejudicada. Uma pessoa queimada fica muito alerta e como descansa pouco, sua taxa de recuperação de HP pode ficar comprometida também.
-  - Sono -> Reduz destreza e agilidade e aumenta o tempo de conjurar e ativar habilidades.
-    --> Hum, sugestões?
-  - Velho -> Reduz Forca e aumenta Magica com o tempo.
-    --> Velho... Alguem me explica???
+	--> contrapartida, como ele estaria incapaz de conjurar magias, isso poderia aumentar seus reflexos (aumento de adrenalina)
+  
+  - Queimando -> Causa taxa de dano de fogo e aumento de tempo de conjuração. Diminui a taxa com o tempo.
+  - Congelando -> Causa taxa de dano de água e diminuição da agilidade. Diminui a taxa com o tempo.
+  
+  - Queimado(Critico) -> Perda contínua de HP, Aumento do Tempo de Conjuração, Diminuição do Ataque Físico, Diminuição de Força Mágica
+    --> Uma pessoa (SEVERAMENTE) queimada temm dificuldade de locomoção, respiração e concentração. Queimaduras são danos severos a pele e a carne. Por isso, uma pessoa queimada perde --> um percentagem da sua força física e da sua força mágica. A primeira, porque seus musculos e mente ficam enfraquecidos. A segunda, porque sua capacidade de se concentrar fica --> prejudicada. Uma pessoa queimada fica muito alerta e como descansa pouco, sua taxa de recuperação de HP pode ficar comprometida também.
+  
+  - Congelado(Critico) -> Perda contínua de HP, Diminuição da Agildiade, Diminuição do Ataque Físico, Diminuição de Força Mágica 
+	
+  - Sonolento -> Reduz: Destreza e Agilidade; Aumenta: o tempo de conjurar e ativar habilidades.
+  
+  - Confuso -> Aumenta da taxa de errar um golpe E se acertar.
+	
+  - Velho -> Reduz: Forca, Agilidade e Constituição; Aumenta: Magia e Destreza
+  - Novo -> Aumenta: Forca, Agilidade e Constituição; Diminui: Magia e Destreza
  
 Classes 
   Guerreiro, Mago, Arqueiro
