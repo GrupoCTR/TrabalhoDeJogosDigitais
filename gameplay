@@ -44,7 +44,9 @@ Condições (coloquei algumas abaixo... verifiquem e adicionem/retirem, caso que
 	
   - Velho -> Reduz: Forca, Agilidade e Constituição; Aumenta: Magia e Destreza
   - Novo -> Aumenta: Forca, Agilidade e Constituição; Diminui: Magia e Destreza
- 
+  
+  - Fraturado -> Reduz: Agilidade e Constituição. Aumenta o tempo de conjuração das magias.
+  
 Classes 
   Guerreiro, Mago, Arqueiro
   - Define distribuição inicial de atributos
@@ -83,6 +85,15 @@ Sobre a Mecânica de Skill e Runas
   
   O poder das skills e seus efeitos serão amplificados pelos atributos
   O tempo de conjurar ou ativar as habilidade reduz conforme o uso (perícia na habilidade)
+  
+  A skill pertencerá a 3 classes distintas para efeitos de calculos de dano:
+	- SKILL Física = Possui dano fisico; Calculo de dano baseado em poder físico.
+	- SKILL Mista = Possui dano mágico + fisico; Calculo de dano baseado em poder mágico e em poder físico.
+	- SKILL Elemental = Possui dano mágico; Calculo de dano baseado em poder mágico;
+  
+  RUNAS possuem habilidades de buff para armas e equipamentos, Skills Mistas e Skills Elementais
+  ARMAS e EQUIPAMENTOS possuem habilidades físicas, que podem se tornar mistas atraves de buffs de RUNAS.
+  Classes possuem habilidades passivais que, NO GERAL, manipulam atributos e condições.
 
   
 DESCRIÇÃO DE SKILLS
