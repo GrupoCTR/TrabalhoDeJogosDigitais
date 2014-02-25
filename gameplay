@@ -97,22 +97,31 @@ Sobre a Mecânica de Skill e Runas
 
   
 DESCRIÇÃO DE SKILLS
-	Nome
-	Descrição Breve
-	Tipo (Curto, Longo, Buff)
-	Poder Base
-	Alcance (em px ou metro)
-	Area de Efeito (em px^2 ou metro^2)
-	Modificação de Status: Tabela com Porcentagens
-	Efeitos:
-		- Interação:
-			- Visual (descrição da animação)
-			- Mecânica (descrição dos efeitos)
-		- Chance de acerto ou de ocorrência (em %)
-	Duração da Habilidade (em s)
-	Tempo para conjurar (em s)
-	Tempo de esperar para poder conjurar (em s)
-	Atributo Base (uma das 7 runas)
+	[b]Nome[b]: Nome da Skill em "Heading 2".
+	[b]Descrição[b]: Breve da descrição da skill. Pode ser história, mas tentar ser o mais sério possível.
+	[b]Tipo[b]: Tipo da skill, que pode ser Curto Alcance, Longo Alcance, Buff ou Qualquer Combinação Delas.
+	[b]Classe[b]: Classe da skill, que pode ser Física, Elemental ou Mista.
+	[b]Poder Base[b]: Valor usado no cálculo do dano básico da skill. Em skills de dano contínuo, caso o dano não seja uniforme, o Poder Base deve ser Zero (decisão de projeto) e o efeito de dano deve estar escrito nos efeitos da Skill. Caso seja possível exemplificar por uma fórmula, esta poderá estar no Poder Base.
+	[b]Alcance[b]: Alcance da Skill. Deve ser definido em pixels ou metros. Buffs devem possuir alcance 0 e Curto Alcance devem possuir alcance 1.
+	[b]Area de Efeito[b]: Área da Skill. Deve ser definido em pxs^2 ou metros^2. Deve-se determinar a forma da área (linha, quadrado, circulo, etc...) Caso as dimensões não sejam claras, deve se descreve-la.
+	[b]Efeitos[b]: Os efeitos da skill, primários e secundários.
+		- [b]Visual[b]: Descrição da animação, sem muitos detalhes, mas de forma CLARA
+		- [b]Mecânica[b]: Lista de descrição dos efeitos, em detalhes:
+			- Deve-se atribuir condições com porcentagem de chance.
+			- Deve-se descrever aqui as diminuições e amplificações de atributos e ou poder elementais.
+			- Caso as skills possam ter efeitos que mudem dado eventos, na mesma linha de Mecânica dela deve se incluir: {Trigger, Efeito} aonde Trigger é o efeito que libera a mudança de comportamento e e Efeito a descrição, com os mesmos padrões acima (de visual e mecânica), do efeito modificado.
+	[b]Restrições[b]: Uma lista das condições de jogo (diferente das condições de estado) que podem/devem impedir que a skill seja conjurada, com por exemplo:
+		- Falta de Concentração e/ou Excesso de Fadiga
+		- Mais de uma instancia no personagem
+		- Impossibilidade de Conviver com Outra Skill
+		- etc..
+	[b]Duração da Habilidade[b]: Tempo que Habilidade se mantem ativa em segundos.
+	[b]Tempo de Cooldown[b]: Tempo de esperar para poder iniciar a conjuração da skill, em segundos.
+	[b]Tempo de Conjuração[b]: Tempo necessário para ativar a skill, em segundos.
+	[b]Atributo Base[b]: Atributo(s) que fazem diferença no calculo de duração de condições e dano. Deve estar no conjunto das 7 runas.
+	[b]Consumo[b]: Valor do Consumo é uma tupla ou lista de tuplas que descreve (Tipo de Consumo, Valor do Consumo), aonde Tipo do Consumo deve ser "FADIGA" ou "CONCENTRAÇÃO" e o valor de consumo deve ser um número.
+	
+	Ao final de todas as skills uma tabela de Modificação de Status deve ser exibida, contendo as variações de cada atributo + o aumento da resistencia em relação a cada runa.
 
 ########################################################################################################################
   >>> AVALIAÇÃO FUTURA <<<
