@@ -115,7 +115,7 @@ DESCRIÇÃO DE SKILLS
 		- Mais de uma instancia no personagem
 		- Impossibilidade de Conviver com Outra Skill
 		- etc..
-	[b]Duração da Habilidade[b]: Tempo que Habilidade se mantem ativa em segundos.
+	[b]Duração da Habilidade[b]: Tempo que Habilidade se mantem ativa em segundos ou Condição que faz a habilidade finalizar
 	[b]Tempo de Cooldown[b]: Tempo de esperar para poder iniciar a conjuração da skill, em segundos.
 	[b]Tempo de Conjuração[b]: Tempo necessário para ativar a skill, em segundos. Caso a skill seja instantanea podemos colocar zero (de preferencia) ou Inst, Instant...
 	[b]Atributo Base[b]: Atributo(s) que fazem diferença no calculo de duração de condições e dano. Deve estar no conjunto das 7 runas.
