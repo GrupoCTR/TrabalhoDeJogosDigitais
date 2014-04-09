@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<botoes>
+	<grupoBotao tipo="MenuCriacaoCenario">
+		<botao>
+			<id>BotaoNovo</id>
+			<texto tamanhoFonte="8">Novo</texto>
+		</botao>
+		<botao>
+			<id>BotaoCarregar</id>
+			<texto tamanhoFonte="8">Carregar</texto>
+		</botao>
+		<botao>
+			<id>BotaoSair</id>
+			<texto tamanhoFonte="8">Sair</texto>
+		</botao>
+	</grupoBotao>
+</botoes>

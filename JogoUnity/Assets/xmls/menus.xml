@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menus>
+	<grupoMenu tipo="MenuCriacaoCenario">
+		<menu>
+			<id>TituloCriacaoCenario</id>
+			<texto tamanhoFonte="14">Criação de Cenários</texto>
+		</menu>
+	</grupoMenu>
+	<grupoMenu tipo="Inicio">
+		 <menu>
+			<id>inicio</id>
+			<texto tamanhoFonte="25">Mistério das Runas</texto>
+		 </menu>
+	</grupoMenu>
+</menus>
